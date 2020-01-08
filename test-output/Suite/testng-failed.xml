@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Tc.AddUser_Bulk_UploadTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="Tc.AddUser_Bulk_UploadTest">
+        <methods>
+          <include name="configAm"/>
+          <include name="configBm"/>
+          <include name="CMS_E2MTest_BulkUpload_TC05"/>
+          <include name="configAc"/>
+          <include name="configBc"/>
+        </methods>
+      </class> <!-- Tc.AddUser_Bulk_UploadTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
