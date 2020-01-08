@@ -20,9 +20,9 @@ import OBB.EventInfopage;
 		 String fromTime=flib.getexcelData("Event", 1, 4);
 		 String toTome=flib.getexcelData("Event", 1, 7);
 		 String IntervalTime=flib.getexcelData("Event", 1, 8);
-		 
-		EventInfopage evm=PageFactory.initElements(driver, EventInfopage.class); 
-		              evm.NavigateToEvent();
+//		 
+//		EventInfopage evm=PageFactory.initElements(driver, EventInfopage.class); 
+//		              evm.NavigateToEvent();
 		 
 	    EventInfopage ename=PageFactory.initElements(driver, EventInfopage.class); 
 	                  ename.Fillform_Eventname(eventname);
@@ -30,15 +30,15 @@ import OBB.EventInfopage;
 	                  ename.NavigateCalenderBox();
 	                  ename.Open_DatePickerbox();
 	                  
-	    EventInfopage tymbox=PageFactory.initElements(driver, EventInfopage.class);
-	                  tymbox.SelectFromTimeBox();
-		 
+//	    EventInfopage tymbox=PageFactory.initElements(driver, EventInfopage.class);
+//	                  tymbox.SelectFromTimeBox();
+//		 
 	    EventInfopage settime=PageFactory.initElements(driver, EventInfopage.class);
 	                  settime.SetTime(fromTime);
-		 
-	    EventInfopage todate=PageFactory.initElements(driver, EventInfopage.class);
-	                  todate.NavigateCalenderBoxTo();
-	                  todate.Open_ToDatebox();
+	//123435677890-098765	 
+	    EventInfopage anytime=PageFactory.initElements(driver, EventInfopage.class);
+	                  anytime.NavigateCalenderBoxTo();
+	                  anytime.Open_ToDatebox();
 	                  
 	    EventInfopage totime=PageFactory.initElements(driver, EventInfopage.class);
 	                  totime.SetToTime(toTome);
