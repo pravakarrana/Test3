@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="62068" started-at="2020-01-08T11:38:25Z" finished-at="2020-01-08T11:39:27Z">
+  <suite name="Suite" duration-ms="10286" started-at="2020-01-08T11:51:21Z" finished-at="2020-01-08T11:51:31Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="62068" started-at="2020-01-08T11:38:25Z" finished-at="2020-01-08T11:39:27Z">
+    <test name="Test" duration-ms="10286" started-at="2020-01-08T11:51:21Z" finished-at="2020-01-08T11:51:31Z">
       <class name="Tc.AddUser_Bulk_UploadTest">
-        <test-method status="PASS" signature="configBc()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configBc" is-config="true" duration-ms="6643" started-at="2020-01-08T17:08:25Z" finished-at="2020-01-08T17:08:31Z">
+        <test-method status="PASS" signature="configBc()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configBc" is-config="true" duration-ms="5027" started-at="2020-01-08T17:21:21Z" finished-at="2020-01-08T17:21:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method status="PASS" signature="configBm()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configBm" is-config="true" duration-ms="16077" started-at="2020-01-08T17:08:31Z" finished-at="2020-01-08T17:08:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBm -->
-        <test-method status="FAIL" signature="CMS_E2MTest_BulkUpload_TC05()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="CMS_E2MTest_BulkUpload_TC05" duration-ms="39300" started-at="2020-01-08T17:08:47Z" finished-at="2020-01-08T17:09:27Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="configBm()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configBm" is-config="true" duration-ms="0" started-at="2020-01-08T17:21:26Z" finished-at="2020-01-08T17:21:26Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Uploaded Successfully.')]"}
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=79.0.3945.88)
   (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 20.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 5 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'SYS250-PC', ip: '172.22.0.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=C:\Users\PRAVAK~1.RAN\AppData\Local\Temp\scoped_dir10072_1577342254}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2a38b6a032354932aff2f800b6802a0c
-*** Element info: {Using=xpath, value=//div[contains(text(),'Uploaded Successfully.')]}]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=C:\Users\PRAVAK~1.RAN\AppData\Local\Temp\scoped_dir9544_625326165}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30d3f71ca151a50b6bfc4deb37f5feeb
+*** Element info: {Using=xpath, value=//input[@id='txtLogin']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Uploaded Successfully.')]"}
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=79.0.3945.88)
   (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 20.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Command duration or timeout: 5 milliseconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'SYS250-PC', ip: '172.22.0.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=C:\Users\PRAVAK~1.RAN\AppData\Local\Temp\scoped_dir10072_1577342254}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2a38b6a032354932aff2f800b6802a0c
-*** Element info: {Using=xpath, value=//div[contains(text(),'Uploaded Successfully.')]}
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62382}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}), userDataDir=C:\Users\PRAVAK~1.RAN\AppData\Local\Temp\scoped_dir9544_625326165}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 30d3f71ca151a50b6bfc4deb37f5feeb
+*** Element info: {Using=xpath, value=//input[@id='txtLogin']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -55,15 +51,17 @@ Session ID: 2a38b6a032354932aff2f800b6802a0c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getText(Unknown Source)
-	at OBB.UsersPage.verifymsg(UsersPage.java:97)
-	at Tc.AddUser_Bulk_UploadTest.CMS_E2MTest_BulkUpload_TC05(AddUser_Bulk_UploadTest.java:41)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at OBB.LoginPage.EnterUsername(LoginPage.java:30)
+	at Gen.Baseclass1.configBm(Baseclass1.java:68)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -84,22 +82,19 @@ Session ID: 2a38b6a032354932aff2f800b6802a0c
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method status="SKIP" signature="CMS_E2MTest_BulkUpload_TC05()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="CMS_E2MTest_BulkUpload_TC05" duration-ms="2" started-at="2020-01-08T17:21:31Z" finished-at="2020-01-08T17:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CMS_E2MTest_BulkUpload_TC05 -->
-        <test-method status="PASS" signature="configAm(org.testng.ITestResult)[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configAm" is-config="true" duration-ms="2" started-at="2020-01-08T17:09:27Z" finished-at="2020-01-08T17:09:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CMS_E2MTest_BulkUpload_TC05 status=FAILURE method=AddUser_Bulk_UploadTest.CMS_E2MTest_BulkUpload_TC05()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="configAm(org.testng.ITestResult)[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configAm" is-config="true" duration-ms="0" started-at="2020-01-08T17:21:31Z" finished-at="2020-01-08T17:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAm -->
-        <test-method status="PASS" signature="configAc()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configAc" is-config="true" duration-ms="0" started-at="2020-01-08T17:09:27Z" finished-at="2020-01-08T17:09:27Z">
+        <test-method status="SKIP" signature="configAc()[pri:0, instance:Tc.AddUser_Bulk_UploadTest@f2f2cc1]" name="configAc" is-config="true" duration-ms="0" started-at="2020-01-08T17:21:31Z" finished-at="2020-01-08T17:21:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAc -->
